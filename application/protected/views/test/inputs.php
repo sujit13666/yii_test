@@ -14,7 +14,7 @@ $form = $this->beginWidget('CActiveForm',
 echo $form->radioButtonList($model, 'radioButton', array('a' => 'A', 'b' => 'B'));
 echo $form->error($model,'radioButton');
 
-echo $form->textField($model,'textField',array('id'=>'hiddenTextField'));
+echo $form->textField($model,'textField'/*,array('id'=>'hiddenTextField')*/);
 
 echo $form->error($model,'textField');
 echo "<br/>";
